@@ -6,7 +6,8 @@
       "first_name": "Roberta",
       "last_name": "Johnson",
       "job_title": "Editorial Manager",
-      "image": 8
+      "image": 8,
+      "locale": 1
     }
   },
   {
@@ -16,7 +17,8 @@
       "first_name": "Olivia",
       "last_name": "Ava",
       "job_title": "Director",
-      "image": 52
+      "image": 52,
+      "locale": 1
     }
   },
   {
@@ -26,7 +28,8 @@
       "first_name": "Lightnin'",
       "last_name": "Hopkins",
       "job_title": "Designer",
-      "image": 53
+      "image": 53,
+      "locale": 1
     }
   },
   {
@@ -36,14 +39,16 @@
       "first_name": "Muddy",
       "last_name": "Waters",
       "job_title": "Assistant Editor",
-      "image": 51
+      "image": 51,
+      "locale": 1
     }
   },
   {
     "model": "base.footertext",
     "pk": 1,
     "fields": {
-      "body": "<p>Copyright <b>The Wagtail Bakery</b>, 2019. All rights reserved.<br/><i>\"If you read a lot you're well read / If you eat a lot you're well bread.\"</i></p>"
+      "body": "<p>Copyright <b>The Wagtail Bakery</b>, 2019. All rights reserved.<br/><i>\"If you read a lot you're well read / If you eat a lot you're well bread.\"</i></p>",
+      "locale": 1
     }
   },
   {
@@ -58,7 +63,8 @@
       "choices": "",
       "default_value": "",
       "help_text": "",
-      "page": 69
+      "page": 69,
+      "locale": 1
     }
   },
   {
@@ -73,7 +79,8 @@
       "choices": "",
       "default_value": "",
       "help_text": "",
-      "page": 69
+      "page": 69,
+      "locale": 1
     }
   },
   {
@@ -88,7 +95,8 @@
       "choices": "",
       "default_value": "you@example.com",
       "help_text": "",
-      "page": 69
+      "page": 69,
+      "locale": 1
     }
   },
   {
@@ -103,7 +111,8 @@
       "choices": "Comment, Question, Feedback",
       "default_value": "",
       "help_text": "",
-      "page": 69
+      "page": 69,
+      "locale": 1
     }
   },
   {
@@ -118,7 +127,8 @@
       "choices": "",
       "default_value": "",
       "help_text": "What's on your mind?",
-      "page": 69
+      "page": 69,
+      "locale": 1
     }
   },
   {
@@ -1192,6 +1202,15 @@
       "hits": 1
     }
   },
+  {
+    "model": "wagtailcore.locale",
+    "pk": 1,
+    "fields": {
+      "id": 1,
+      "language_code": "en"
+    }
+  },
+
   {
     "model": "wagtailcore.site",
     "pk": 2,

@@ -6,7 +6,7 @@ from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import FieldPanel, FieldRowPanel, InlinePanel, MultiFieldPanel
 from wagtail.contrib.forms.models import AbstractEmailForm, AbstractFormField
 from wagtail.fields import RichTextField, StreamField
-from wagtail.models import Collection, Page
+from wagtail.models import Collection, Page, TranslatableMixin
 from wagtail.search import index
 from wagtail.snippets.models import register_snippet
 
@@ -14,7 +14,7 @@ from .blocks import BaseStreamBlock
 
 
 @register_snippet
-class People(index.Indexed, ClusterableModel):
+class People(TranslatableMixin, index.Indexed, ClusterableModel):
     """
     A Django model to store People objects.
     It uses the `@register_snippet` decorator to allow it to be accessible
@@ -76,10 +76,14 @@ class People(index.Indexed, ClusterableModel):
     class Meta:
         verbose_name = "Person"
         verbose_name_plural = "People"
+        unique_together = [
+            ('translation_key', 'locale'),
+        ]
+
 
 
 @register_snippet
-class FooterText(models.Model):
+class FooterText(TranslatableMixin, models.Model):
     """
     This provides editable text for the site footer. Again it uses the decorator
     `register_snippet` to allow it to be accessible via the admin. It is made
@@ -98,6 +102,10 @@ class FooterText(models.Model):
 
     class Meta:
         verbose_name_plural = "Footer Text"
+        unique_together = [
+            ('translation_key', 'locale'),
+        ]
+
 
 
 class StandardPage(Page):
@@ -329,7 +337,7 @@ class GalleryPage(Page):
     subpage_types = []
 
 
-class FormField(AbstractFormField):
+class FormField(TranslatableMixin, AbstractFormField):
     """
     Wagtailforms is a module to introduce simple forms on a Wagtail site. It
     isn't intended as a replacement to Django's form support but as a quick way

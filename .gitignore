@@ -14,6 +14,7 @@ common/CACHE
 bakerydemo/settings/local.py
 bakerydemodb
 node_modules
+env
 venv
 .venv
 __pycache__
