@@ -31,9 +31,8 @@ class Country(TranslatableMixin, models.Model):
     class Meta:
         verbose_name_plural = "Countries of Origin"
         unique_together = [
-            ('translation_key', 'locale'),
+            ("translation_key", "locale"),
         ]
-
 
 
 @register_snippet
@@ -58,9 +57,8 @@ class BreadIngredient(TranslatableMixin, models.Model):
     class Meta:
         verbose_name_plural = "Bread ingredients"
         unique_together = [
-            ('translation_key', 'locale'),
+            ("translation_key", "locale"),
         ]
-
 
 
 @register_snippet
@@ -86,9 +84,8 @@ class BreadType(TranslatableMixin, models.Model):
     class Meta:
         verbose_name_plural = "Bread types"
         unique_together = [
-            ('translation_key', 'locale'),
+            ("translation_key", "locale"),
         ]
-
 
 
 class BreadPage(Page):

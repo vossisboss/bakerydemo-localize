@@ -17,69 +17,274 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('wagtailimages', '0001_initial'),
-        ('wagtailcore', '0001_initial'),
-        ('taggit', '0001_initial'),
-        ('base', '0002_initial'),
+        ("wagtailimages", "0001_initial"),
+        ("wagtailcore", "0001_initial"),
+        ("taggit", "0001_initial"),
+        ("base", "0002_initial"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='BlogPage',
+            name="BlogPage",
             fields=[
-                ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.page')),
-                ('introduction', models.TextField(blank=True, help_text='Text to describe the page')),
-                ('body', wagtail.fields.StreamField([('heading_block', wagtail.blocks.StructBlock([('heading_text', wagtail.blocks.CharBlock(form_classname='title', required=True)), ('size', wagtail.blocks.ChoiceBlock(blank=True, choices=[('', 'Select a header size'), ('h2', 'H2'), ('h3', 'H3'), ('h4', 'H4')], required=False))])), ('paragraph_block', wagtail.blocks.RichTextBlock(icon='fa-paragraph', template='blocks/paragraph_block.html')), ('image_block', wagtail.blocks.StructBlock([('image', wagtail.images.blocks.ImageChooserBlock(required=True)), ('caption', wagtail.blocks.CharBlock(required=False)), ('attribution', wagtail.blocks.CharBlock(required=False))])), ('block_quote', wagtail.blocks.StructBlock([('text', wagtail.blocks.TextBlock()), ('attribute_name', wagtail.blocks.CharBlock(blank=True, label='e.g. Mary Berry', required=False))])), ('embed_block', wagtail.embeds.blocks.EmbedBlock(help_text='Insert an embed URL e.g https://www.youtube.com/embed/SGJFWirQ3ks', icon='fa-s15', template='blocks/embed_block.html'))], blank=True, use_json_field=True, verbose_name='Page body')),
-                ('subtitle', models.CharField(blank=True, max_length=255)),
-                ('date_published', models.DateField(blank=True, null=True, verbose_name='Date article published')),
-                ('image', models.ForeignKey(blank=True, help_text='Landscape mode only; horizontal width between 1000px and 3000px.', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailimages.image')),
+                (
+                    "page_ptr",
+                    models.OneToOneField(
+                        auto_created=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        parent_link=True,
+                        primary_key=True,
+                        serialize=False,
+                        to="wagtailcore.page",
+                    ),
+                ),
+                (
+                    "introduction",
+                    models.TextField(blank=True, help_text="Text to describe the page"),
+                ),
+                (
+                    "body",
+                    wagtail.fields.StreamField(
+                        [
+                            (
+                                "heading_block",
+                                wagtail.blocks.StructBlock(
+                                    [
+                                        (
+                                            "heading_text",
+                                            wagtail.blocks.CharBlock(
+                                                form_classname="title", required=True
+                                            ),
+                                        ),
+                                        (
+                                            "size",
+                                            wagtail.blocks.ChoiceBlock(
+                                                blank=True,
+                                                choices=[
+                                                    ("", "Select a header size"),
+                                                    ("h2", "H2"),
+                                                    ("h3", "H3"),
+                                                    ("h4", "H4"),
+                                                ],
+                                                required=False,
+                                            ),
+                                        ),
+                                    ]
+                                ),
+                            ),
+                            (
+                                "paragraph_block",
+                                wagtail.blocks.RichTextBlock(
+                                    icon="fa-paragraph",
+                                    template="blocks/paragraph_block.html",
+                                ),
+                            ),
+                            (
+                                "image_block",
+                                wagtail.blocks.StructBlock(
+                                    [
+                                        (
+                                            "image",
+                                            wagtail.images.blocks.ImageChooserBlock(
+                                                required=True
+                                            ),
+                                        ),
+                                        (
+                                            "caption",
+                                            wagtail.blocks.CharBlock(required=False),
+                                        ),
+                                        (
+                                            "attribution",
+                                            wagtail.blocks.CharBlock(required=False),
+                                        ),
+                                    ]
+                                ),
+                            ),
+                            (
+                                "block_quote",
+                                wagtail.blocks.StructBlock(
+                                    [
+                                        ("text", wagtail.blocks.TextBlock()),
+                                        (
+                                            "attribute_name",
+                                            wagtail.blocks.CharBlock(
+                                                blank=True,
+                                                label="e.g. Mary Berry",
+                                                required=False,
+                                            ),
+                                        ),
+                                    ]
+                                ),
+                            ),
+                            (
+                                "embed_block",
+                                wagtail.embeds.blocks.EmbedBlock(
+                                    help_text="Insert an embed URL e.g https://www.youtube.com/embed/SGJFWirQ3ks",
+                                    icon="fa-s15",
+                                    template="blocks/embed_block.html",
+                                ),
+                            ),
+                        ],
+                        blank=True,
+                        use_json_field=True,
+                        verbose_name="Page body",
+                    ),
+                ),
+                ("subtitle", models.CharField(blank=True, max_length=255)),
+                (
+                    "date_published",
+                    models.DateField(
+                        blank=True, null=True, verbose_name="Date article published"
+                    ),
+                ),
+                (
+                    "image",
+                    models.ForeignKey(
+                        blank=True,
+                        help_text="Landscape mode only; horizontal width between 1000px and 3000px.",
+                        null=True,
+                        on_delete=django.db.models.deletion.SET_NULL,
+                        related_name="+",
+                        to="wagtailimages.image",
+                    ),
+                ),
             ],
             options={
-                'abstract': False,
+                "abstract": False,
             },
-            bases=('wagtailcore.page',),
+            bases=("wagtailcore.page",),
         ),
         migrations.CreateModel(
-            name='BlogPageTag',
+            name="BlogPageTag",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('content_object', modelcluster.fields.ParentalKey(on_delete=django.db.models.deletion.CASCADE, related_name='tagged_items', to='blog.blogpage')),
-                ('tag', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='%(app_label)s_%(class)s_items', to='taggit.tag')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "content_object",
+                    modelcluster.fields.ParentalKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="tagged_items",
+                        to="blog.blogpage",
+                    ),
+                ),
+                (
+                    "tag",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="%(app_label)s_%(class)s_items",
+                        to="taggit.tag",
+                    ),
+                ),
             ],
             options={
-                'abstract': False,
+                "abstract": False,
             },
         ),
         migrations.AddField(
-            model_name='blogpage',
-            name='tags',
-            field=modelcluster.contrib.taggit.ClusterTaggableManager(blank=True, help_text='A comma-separated list of tags.', through='blog.BlogPageTag', to='taggit.Tag', verbose_name='Tags'),
+            model_name="blogpage",
+            name="tags",
+            field=modelcluster.contrib.taggit.ClusterTaggableManager(
+                blank=True,
+                help_text="A comma-separated list of tags.",
+                through="blog.BlogPageTag",
+                to="taggit.Tag",
+                verbose_name="Tags",
+            ),
         ),
         migrations.CreateModel(
-            name='BlogIndexPage',
+            name="BlogIndexPage",
             fields=[
-                ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.page')),
-                ('introduction', models.TextField(blank=True, help_text='Text to describe the page')),
-                ('image', models.ForeignKey(blank=True, help_text='Landscape mode only; horizontal width between 1000px and 3000px.', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailimages.image')),
+                (
+                    "page_ptr",
+                    models.OneToOneField(
+                        auto_created=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        parent_link=True,
+                        primary_key=True,
+                        serialize=False,
+                        to="wagtailcore.page",
+                    ),
+                ),
+                (
+                    "introduction",
+                    models.TextField(blank=True, help_text="Text to describe the page"),
+                ),
+                (
+                    "image",
+                    models.ForeignKey(
+                        blank=True,
+                        help_text="Landscape mode only; horizontal width between 1000px and 3000px.",
+                        null=True,
+                        on_delete=django.db.models.deletion.SET_NULL,
+                        related_name="+",
+                        to="wagtailimages.image",
+                    ),
+                ),
             ],
             options={
-                'abstract': False,
+                "abstract": False,
             },
-            bases=(wagtail.contrib.routable_page.models.RoutablePageMixin, 'wagtailcore.page'),
+            bases=(
+                wagtail.contrib.routable_page.models.RoutablePageMixin,
+                "wagtailcore.page",
+            ),
         ),
         migrations.CreateModel(
-            name='BlogPeopleRelationship',
+            name="BlogPeopleRelationship",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('translation_key', models.UUIDField(default=uuid.uuid4, editable=False)),
-                ('sort_order', models.IntegerField(blank=True, editable=False, null=True)),
-                ('locale', models.ForeignKey(editable=False, on_delete=django.db.models.deletion.PROTECT, related_name='+', to='wagtailcore.locale')),
-                ('page', modelcluster.fields.ParentalKey(on_delete=django.db.models.deletion.CASCADE, related_name='blog_person_relationship', to='blog.blogpage')),
-                ('people', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='person_blog_relationship', to='base.people')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "translation_key",
+                    models.UUIDField(default=uuid.uuid4, editable=False),
+                ),
+                (
+                    "sort_order",
+                    models.IntegerField(blank=True, editable=False, null=True),
+                ),
+                (
+                    "locale",
+                    models.ForeignKey(
+                        editable=False,
+                        on_delete=django.db.models.deletion.PROTECT,
+                        related_name="+",
+                        to="wagtailcore.locale",
+                    ),
+                ),
+                (
+                    "page",
+                    modelcluster.fields.ParentalKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="blog_person_relationship",
+                        to="blog.blogpage",
+                    ),
+                ),
+                (
+                    "people",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="person_blog_relationship",
+                        to="base.people",
+                    ),
+                ),
             ],
             options={
-                'ordering': ['sort_order'],
-                'unique_together': {('translation_key', 'locale')},
+                "ordering": ["sort_order"],
+                "unique_together": {("translation_key", "locale")},
             },
         ),
     ]

@@ -8,19 +8,29 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='BreadIngredient',
+            name="BreadIngredient",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('translation_key', models.UUIDField(default=uuid.uuid4, editable=False)),
-                ('name', models.CharField(max_length=255)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "translation_key",
+                    models.UUIDField(default=uuid.uuid4, editable=False),
+                ),
+                ("name", models.CharField(max_length=255)),
             ],
             options={
-                'verbose_name_plural': 'Bread ingredients',
+                "verbose_name_plural": "Bread ingredients",
             },
         ),
     ]

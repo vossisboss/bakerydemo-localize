@@ -10,7 +10,6 @@ from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtail.contrib.routable_page.models import RoutablePageMixin, route
 from wagtail.fields import StreamField
 from wagtail.models import Orderable, Page, TranslatableMixin
-
 from wagtail.search import index
 
 from bakerydemo.base.blocks import BaseStreamBlock
@@ -34,9 +33,9 @@ class BlogPeopleRelationship(Orderable, TranslatableMixin, models.Model):
     panels = [FieldPanel("people")]
 
     class Meta:
-        ordering = ['sort_order']
+        ordering = ["sort_order"]
         unique_together = [
-            ('translation_key', 'locale'),
+            ("translation_key", "locale"),
         ]
 
 

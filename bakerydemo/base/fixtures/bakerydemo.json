@@ -2553,10 +2553,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 1,
     "fields": {
-      "content_type": [
-        "base",
-        "people"
-      ],
+      "content_type": ["base", "people"],
       "object_id": "1",
       "title_norm": 1.0,
       "autocomplete": "",
@@ -2568,10 +2565,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 2,
     "fields": {
-      "content_type": [
-        "base",
-        "people"
-      ],
+      "content_type": ["base", "people"],
       "object_id": "2",
       "title_norm": 1.0,
       "autocomplete": "",
@@ -2583,10 +2577,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 3,
     "fields": {
-      "content_type": [
-        "base",
-        "people"
-      ],
+      "content_type": ["base", "people"],
       "object_id": "3",
       "title_norm": 1.0,
       "autocomplete": "",
@@ -2598,10 +2589,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 4,
     "fields": {
-      "content_type": [
-        "base",
-        "people"
-      ],
+      "content_type": ["base", "people"],
       "object_id": "4",
       "title_norm": 1.0,
       "autocomplete": "",
@@ -2613,10 +2601,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 5,
     "fields": {
-      "content_type": [
-        "wagtailcore",
-        "page"
-      ],
+      "content_type": ["wagtailcore", "page"],
       "object_id": "1",
       "title_norm": 3.030701754385965,
       "autocomplete": "Root",
@@ -2628,10 +2613,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 6,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "8",
       "title_norm": 0.808187134502924,
       "autocomplete": "Roberta Johnson",
@@ -2643,10 +2625,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 7,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "9",
       "title_norm": 1.5153508771929824,
       "autocomplete": "Breads 1",
@@ -2658,10 +2637,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 8,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "10",
       "title_norm": 1.5153508771929824,
       "autocomplete": "Breads 2",
@@ -2673,10 +2649,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 9,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "11",
       "title_norm": 1.5153508771929824,
       "autocomplete": "Breads 3",
@@ -2688,10 +2661,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 10,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "12",
       "title_norm": 1.5153508771929824,
       "autocomplete": "Breads 4",
@@ -2703,10 +2673,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 11,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "14",
       "title_norm": 1.5153508771929824,
       "autocomplete": "Breads 5",
@@ -2718,10 +2685,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 12,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "15",
       "title_norm": 1.5153508771929824,
       "autocomplete": "Breads 6",
@@ -2733,10 +2697,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 13,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "21",
       "title_norm": 2.424561403508772,
       "autocomplete": "Yeast",
@@ -2748,10 +2709,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 14,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "22",
       "title_norm": 1.5153508771929824,
       "autocomplete": "Bedouins",
@@ -2763,10 +2721,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 15,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "23",
       "title_norm": 0.808187134502924,
       "autocomplete": "Ølandshvedebrød",
@@ -2778,10 +2733,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 16,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "24",
       "title_norm": 1.212280701754386,
       "autocomplete": "Soda Bread",
@@ -2793,10 +2745,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 17,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "25",
       "title_norm": 0.8659147869674185,
       "autocomplete": "Sandwich Bread",
@@ -2808,10 +2757,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 18,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "26",
       "title_norm": 0.9325236167341431,
       "autocomplete": "Anadama_bread",
@@ -2823,10 +2769,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 19,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "28",
       "title_norm": 2.424561403508772,
       "autocomplete": "Appam",
@@ -2838,10 +2781,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 20,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "29",
       "title_norm": 2.424561403508772,
       "autocomplete": "Arepa",
@@ -2853,10 +2793,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 21,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "30",
       "title_norm": 2.424561403508772,
       "autocomplete": "Bagel",
@@ -2868,10 +2805,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 22,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "31",
       "title_norm": 1.5153508771929824,
       "autocomplete": "Baguette",
@@ -2883,10 +2817,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 23,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "32",
       "title_norm": 1.731829573934837,
       "autocomplete": "Bammies",
@@ -2898,10 +2829,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 24,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "33",
       "title_norm": 2.424561403508772,
       "autocomplete": "Bazin",
@@ -2913,10 +2841,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 25,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "34",
       "title_norm": 0.8659147869674185,
       "autocomplete": "Bunanpankatori",
@@ -2928,10 +2853,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 26,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "35",
       "title_norm": 0.8659147869674185,
       "autocomplete": "Belgian Waffle",
@@ -2943,10 +2865,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 27,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "36",
       "title_norm": 0.9325236167341431,
       "autocomplete": "Afghan Bolani",
@@ -2958,10 +2877,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 28,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "37",
       "title_norm": 1.10207336523126,
       "autocomplete": "Misc Breads",
@@ -2973,10 +2889,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 29,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "39",
       "title_norm": 1.3469785575048734,
       "autocomplete": "Rye Bread",
@@ -2988,10 +2901,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 30,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "40",
       "title_norm": 2.02046783625731,
       "autocomplete": "Bhakri",
@@ -3003,10 +2913,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 31,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "41",
       "title_norm": 1.10207336523126,
       "autocomplete": "Sprint Crew",
@@ -3018,10 +2925,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 32,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "42",
       "title_norm": 1.10207336523126,
       "autocomplete": "Baking Soda",
@@ -3033,10 +2937,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 33,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "43",
       "title_norm": 0.7576754385964912,
       "autocomplete": "Boston Cream Pie",
@@ -3048,10 +2949,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 34,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "44",
       "title_norm": 0.4849122807017544,
       "autocomplete": "Image by Ævar Guðmundsson",
@@ -3063,10 +2961,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 35,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "45",
       "title_norm": 0.43295739348370926,
       "autocomplete": "Image by Sverrir Thorolfsson",
@@ -3078,10 +2973,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 36,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "46",
       "title_norm": 0.4489928525016244,
       "autocomplete": "Glacier descending near Hof",
@@ -3093,10 +2985,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 37,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "47",
       "title_norm": 0.5270785659801678,
       "autocomplete": "Old buildings above Vik",
@@ -3108,10 +2997,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 38,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "48",
       "title_norm": 0.808187134502924,
       "autocomplete": "Höfn from above",
@@ -3123,10 +3009,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 39,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "49",
       "title_norm": 1.731829573934837,
       "autocomplete": "Akranes",
@@ -3138,10 +3021,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 40,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "51",
       "title_norm": 1.010233918128655,
       "autocomplete": "Muddy Waters",
@@ -3153,10 +3033,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 41,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "52",
       "title_norm": 1.212280701754386,
       "autocomplete": "Olivia Ava",
@@ -3168,10 +3045,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 42,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "53",
       "title_norm": 0.7131062951496387,
       "autocomplete": "Lightnin' Hopkins",
@@ -3183,10 +3057,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 43,
     "fields": {
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "object_id": "64",
       "title_norm": 4.04093567251462,
       "autocomplete": "Hof",
@@ -3198,10 +3069,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 44,
     "fields": {
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "object_id": "65",
       "title_norm": 1.3469785575048734,
       "autocomplete": "Reykjavik",
@@ -3213,10 +3081,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 45,
     "fields": {
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "object_id": "66",
       "title_norm": 4.04093567251462,
       "autocomplete": "Vik",
@@ -3228,10 +3093,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 46,
     "fields": {
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "object_id": "67",
       "title_norm": 1.731829573934837,
       "autocomplete": "Selfoss",
@@ -3243,10 +3105,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 47,
     "fields": {
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "object_id": "78",
       "title_norm": 3.030701754385965,
       "autocomplete": "Höfn",
@@ -3258,10 +3117,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 48,
     "fields": {
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "object_id": "79",
       "title_norm": 1.731829573934837,
       "autocomplete": "Akranes",
@@ -3273,10 +3129,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 49,
     "fields": {
-      "content_type": [
-        "locations",
-        "locationsindexpage"
-      ],
+      "content_type": ["locations", "locationsindexpage"],
       "object_id": "63",
       "title_norm": 1.3469785575048734,
       "autocomplete": "Locations",
@@ -3288,10 +3141,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 50,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadsindexpage"
-      ],
+      "content_type": ["breads", "breadsindexpage"],
       "object_id": "3",
       "title_norm": 2.02046783625731,
       "autocomplete": "Breads",
@@ -3303,10 +3153,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 51,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogindexpage"
-      ],
+      "content_type": ["blog", "blogindexpage"],
       "object_id": "61",
       "title_norm": 3.030701754385965,
       "autocomplete": "Blog",
@@ -3318,10 +3165,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 52,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "object_id": "62",
       "title_norm": 0.6380424746075716,
       "autocomplete": "Tracking Wild Yeast",
@@ -3333,10 +3177,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 53,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "object_id": "68",
       "title_norm": 0.6734892787524367,
       "autocomplete": "Bread and Circuses",
@@ -3348,10 +3189,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 54,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "object_id": "72",
       "title_norm": 0.3910582908885116,
       "autocomplete": "The Great Icelandic Baking Show",
@@ -3363,10 +3201,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 55,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "object_id": "73",
       "title_norm": 0.5051169590643275,
       "autocomplete": "The Joy of (Baking) Soda",
@@ -3378,10 +3213,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 56,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "object_id": "74",
       "title_norm": 0.3276434329065908,
       "autocomplete": "The Greatest Thing Since Sliced Bread",
@@ -3393,10 +3225,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 57,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "object_id": "77",
       "title_norm": 0.55103668261563,
       "autocomplete": "Desserts with Benefits",
@@ -3408,10 +3237,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 58,
     "fields": {
-      "content_type": [
-        "base",
-        "formpage"
-      ],
+      "content_type": ["base", "formpage"],
       "object_id": "69",
       "title_norm": 1.212280701754386,
       "autocomplete": "Contact Us",
@@ -3423,10 +3249,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 59,
     "fields": {
-      "content_type": [
-        "base",
-        "gallerypage"
-      ],
+      "content_type": ["base", "gallerypage"],
       "object_id": "70",
       "title_norm": 1.731829573934837,
       "autocomplete": "Gallery",
@@ -3438,10 +3261,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 60,
     "fields": {
-      "content_type": [
-        "base",
-        "homepage"
-      ],
+      "content_type": ["base", "homepage"],
       "object_id": "60",
       "title_norm": 0.404093567251462,
       "autocomplete": "Welcome to the Wagtail Bakery!",
@@ -3453,10 +3273,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 61,
     "fields": {
-      "content_type": [
-        "base",
-        "standardpage"
-      ],
+      "content_type": ["base", "standardpage"],
       "object_id": "76",
       "title_norm": 2.424561403508772,
       "autocomplete": "About",
@@ -3468,10 +3285,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 62,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "80",
       "title_norm": 0.8682266009852216,
       "autocomplete": "Anadama",
@@ -3483,10 +3297,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 63,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "81",
       "title_norm": 1.3314500941619585,
       "autocomplete": "Baguettes",
@@ -3498,10 +3309,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 64,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "54",
       "title_norm": 0.8583333333333334,
       "autocomplete": "ciabatta-image",
@@ -3513,10 +3321,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 65,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "82",
       "title_norm": 1.4938524590163935,
       "autocomplete": "Ciabatta",
@@ -3528,10 +3333,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 66,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "83",
       "title_norm": 2.367741935483871,
       "autocomplete": "Appam",
@@ -3543,10 +3345,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 67,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "84",
       "title_norm": 2.3460317460317457,
       "autocomplete": "Anpan",
@@ -3558,10 +3357,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 68,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "85",
       "title_norm": 2.325,
       "autocomplete": "Bazin",
@@ -3573,10 +3369,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 69,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "86",
       "title_norm": 1.9230769230769231,
       "autocomplete": "Bhakri",
@@ -3588,10 +3381,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 70,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "87",
       "title_norm": 1.0482093663911847,
       "autocomplete": "Black bread",
@@ -3603,10 +3393,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 71,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "88",
       "title_norm": 2.2865671641791048,
       "autocomplete": "Arepa",
@@ -3618,10 +3405,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 72,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "89",
       "title_norm": 1.8921568627450982,
       "autocomplete": "Bolani",
@@ -3633,10 +3417,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 73,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "90",
       "title_norm": 2.252173913043478,
       "autocomplete": "Bagel",
@@ -3648,10 +3429,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 74,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "object_id": "91",
       "title_norm": 2.234285714285714,
       "autocomplete": "Bammy",
@@ -3663,10 +3441,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 75,
     "fields": {
-      "content_type": [
-        "wagtailimages",
-        "image"
-      ],
+      "content_type": ["wagtailimages", "image"],
       "object_id": "55",
       "title_norm": 0.2535211267605634,
       "autocomplete": "nikita-turkovich-aAnWfuCu4DU-unsplash.original",
@@ -3678,10 +3453,7 @@
     "model": "wagtailsearch.indexentry",
     "pk": 76,
     "fields": {
-      "content_type": [
-        "base",
-        "people"
-      ],
+      "content_type": ["base", "people"],
       "object_id": "5",
       "title_norm": 1.0,
       "autocomplete": "",
@@ -3855,41 +3627,13 @@
     "fields": {
       "name": "Moderators",
       "permissions": [
-        [
-          "access_admin",
-          "wagtailadmin",
-          "admin"
-        ],
-        [
-          "add_document",
-          "wagtaildocs",
-          "document"
-        ],
-        [
-          "change_document",
-          "wagtaildocs",
-          "document"
-        ],
-        [
-          "delete_document",
-          "wagtaildocs",
-          "document"
-        ],
-        [
-          "add_image",
-          "wagtailimages",
-          "image"
-        ],
-        [
-          "change_image",
-          "wagtailimages",
-          "image"
-        ],
-        [
-          "delete_image",
-          "wagtailimages",
-          "image"
-        ]
+        ["access_admin", "wagtailadmin", "admin"],
+        ["add_document", "wagtaildocs", "document"],
+        ["change_document", "wagtaildocs", "document"],
+        ["delete_document", "wagtaildocs", "document"],
+        ["add_image", "wagtailimages", "image"],
+        ["change_image", "wagtailimages", "image"],
+        ["delete_image", "wagtailimages", "image"]
       ]
     }
   },
@@ -3898,41 +3642,13 @@
     "fields": {
       "name": "Editors",
       "permissions": [
-        [
-          "access_admin",
-          "wagtailadmin",
-          "admin"
-        ],
-        [
-          "add_document",
-          "wagtaildocs",
-          "document"
-        ],
-        [
-          "change_document",
-          "wagtaildocs",
-          "document"
-        ],
-        [
-          "delete_document",
-          "wagtaildocs",
-          "document"
-        ],
-        [
-          "add_image",
-          "wagtailimages",
-          "image"
-        ],
-        [
-          "change_image",
-          "wagtailimages",
-          "image"
-        ],
-        [
-          "delete_image",
-          "wagtailimages",
-          "image"
-        ]
+        ["access_admin", "wagtailadmin", "admin"],
+        ["add_document", "wagtaildocs", "document"],
+        ["change_document", "wagtaildocs", "document"],
+        ["delete_document", "wagtaildocs", "document"],
+        ["add_image", "wagtailimages", "image"],
+        ["change_image", "wagtailimages", "image"],
+        ["delete_image", "wagtailimages", "image"]
       ]
     }
   },
@@ -3965,19 +3681,14 @@
     "model": "wagtail_localize.translatableobject",
     "pk": "00000000-0000-0000-0000-000000000001",
     "fields": {
-      "content_type": [
-        "base",
-        "footertext"
-      ]
+      "content_type": ["base", "footertext"]
     }
   },
   {
     "model": "wagtailcore.pagesubscription",
     "pk": 1,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 80,
       "comment_notifications": true
     }
@@ -3986,9 +3697,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 2,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 81,
       "comment_notifications": true
     }
@@ -3997,9 +3706,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 3,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 82,
       "comment_notifications": true
     }
@@ -4008,9 +3715,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 4,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 83,
       "comment_notifications": true
     }
@@ -4019,9 +3724,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 5,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 84,
       "comment_notifications": true
     }
@@ -4030,9 +3733,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 6,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 85,
       "comment_notifications": true
     }
@@ -4041,9 +3742,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 7,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 86,
       "comment_notifications": true
     }
@@ -4052,9 +3751,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 8,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 87,
       "comment_notifications": true
     }
@@ -4063,9 +3760,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 9,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 88,
       "comment_notifications": true
     }
@@ -4074,9 +3769,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 10,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 89,
       "comment_notifications": true
     }
@@ -4085,9 +3778,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 11,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 90,
       "comment_notifications": true
     }
@@ -4096,9 +3787,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 12,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 91,
       "comment_notifications": true
     }
@@ -4107,9 +3796,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 13,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 62,
       "comment_notifications": false
     }
@@ -4118,9 +3805,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 14,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 77,
       "comment_notifications": false
     }
@@ -4129,9 +3814,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 15,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 74,
       "comment_notifications": false
     }
@@ -4140,9 +3823,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 16,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 73,
       "comment_notifications": false
     }
@@ -4151,9 +3832,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 17,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 72,
       "comment_notifications": false
     }
@@ -4162,9 +3841,7 @@
     "model": "wagtailcore.pagesubscription",
     "pk": 18,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "page": 68,
       "comment_notifications": false
     }
@@ -4173,18 +3850,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 1,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Meagen's Test Blog",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:30:00.051Z",
       "uuid": "cc048e0f-f271-459e-bf26-db5192020ad5",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 80,
@@ -4195,18 +3867,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 2,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Meagen's Test Blog",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T17:30:03.448Z",
       "uuid": "e70b8600-6e65-47af-b7c9-cd86c2d252c9",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 80,
@@ -4217,18 +3884,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 3,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Meagen's Test Blog",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T17:30:03.471Z",
       "uuid": "e70b8600-6e65-47af-b7c9-cd86c2d252c9",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "page": 80,
@@ -4239,18 +3901,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 4,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Meagen's Test Blog",
       "action": "wagtail.delete",
       "data": {},
       "timestamp": "2022-09-19T17:30:22.271Z",
       "uuid": "82efd576-1b8d-42cd-b282-0e469f6558fc",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": true,
       "page": 80,
@@ -4261,18 +3918,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 5,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Testing breads",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:40:58.014Z",
       "uuid": "a4302657-0e6d-4bbd-8707-a4802d9245c1",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 80,
@@ -4283,18 +3935,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 6,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Anadama",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T17:46:18.707Z",
       "uuid": "fe14e014-381e-4571-b715-8427991affc3",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 80,
@@ -4305,10 +3952,7 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 7,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Anadama",
       "action": "wagtail.rename",
       "data": {
@@ -4319,9 +3963,7 @@
       },
       "timestamp": "2022-09-19T17:46:18.734Z",
       "uuid": "fe14e014-381e-4571-b715-8427991affc3",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "page": 80,
@@ -4332,10 +3974,7 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 8,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Anadama",
       "action": "wagtail.publish",
       "data": {
@@ -4346,9 +3985,7 @@
       },
       "timestamp": "2022-09-19T17:46:18.736Z",
       "uuid": "fe14e014-381e-4571-b715-8427991affc3",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 80,
@@ -4359,18 +3996,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 9,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Baguettes",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:48:00.715Z",
       "uuid": "eb707a6f-f3b4-42ee-8a09-0f3956606d90",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 81,
@@ -4381,18 +4013,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 10,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Baguettes",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T17:48:00.743Z",
       "uuid": "eb707a6f-f3b4-42ee-8a09-0f3956606d90",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 81,
@@ -4403,18 +4030,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 11,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Ciabatta",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:51:53.921Z",
       "uuid": "cf3e0eb7-d518-4cbf-897e-d407060fec00",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 82,
@@ -4425,18 +4047,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 12,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Ciabatta",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T17:51:53.944Z",
       "uuid": "cf3e0eb7-d518-4cbf-897e-d407060fec00",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 82,
@@ -4447,18 +4064,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 13,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Appam",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:53:45.255Z",
       "uuid": "689bd5e6-448c-4445-b687-4341df085a12",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 83,
@@ -4469,18 +4081,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 14,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Appam",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T17:53:45.286Z",
       "uuid": "689bd5e6-448c-4445-b687-4341df085a12",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 83,
@@ -4491,18 +4098,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 15,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Anpan",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:54:54.238Z",
       "uuid": "47199a8f-979b-4669-b1ac-ddfc4ed73881",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 84,
@@ -4513,18 +4115,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 16,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Anpan",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T17:54:54.261Z",
       "uuid": "47199a8f-979b-4669-b1ac-ddfc4ed73881",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 84,
@@ -4535,18 +4132,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 17,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Bazin",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:56:00.669Z",
       "uuid": "a602c983-70e6-48ef-bd6e-d69dbf1d9a09",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 85,
@@ -4557,18 +4149,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 18,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Bazin",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T17:56:00.701Z",
       "uuid": "a602c983-70e6-48ef-bd6e-d69dbf1d9a09",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 85,
@@ -4579,18 +4166,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 19,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Bhakri",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:56:57.933Z",
       "uuid": "838e2718-bb7d-4517-80dd-ffbae1c04924",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 86,
@@ -4601,18 +4183,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 20,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Bhakri",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T17:56:57.955Z",
       "uuid": "838e2718-bb7d-4517-80dd-ffbae1c04924",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 86,
@@ -4623,18 +4200,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 21,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Black bread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:58:23.214Z",
       "uuid": "e98229d3-847b-4045-8f07-417310408e01",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 87,
@@ -4645,18 +4217,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 22,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Black bread",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T17:58:23.249Z",
       "uuid": "e98229d3-847b-4045-8f07-417310408e01",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 87,
@@ -4667,18 +4234,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 23,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Arepa",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:59:44.897Z",
       "uuid": "151f9847-1631-483d-a002-9e36cd973d53",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 88,
@@ -4689,18 +4251,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 24,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Arepa",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T17:59:44.932Z",
       "uuid": "151f9847-1631-483d-a002-9e36cd973d53",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 88,
@@ -4711,18 +4268,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 25,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Bolani",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T18:00:40.686Z",
       "uuid": "eae63a61-8ce8-4591-b2ee-0d7492ff42ab",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 89,
@@ -4733,18 +4285,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 26,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Bolani",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:00:40.717Z",
       "uuid": "eae63a61-8ce8-4591-b2ee-0d7492ff42ab",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 89,
@@ -4755,18 +4302,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 27,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Bagel",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T18:01:40.139Z",
       "uuid": "1a7afa4d-1945-4a50-a61e-1790a6801ccd",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 90,
@@ -4777,18 +4319,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 28,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Bagel",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:01:40.174Z",
       "uuid": "1a7afa4d-1945-4a50-a61e-1790a6801ccd",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 90,
@@ -4799,18 +4336,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 29,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Bammy",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T18:02:44.384Z",
       "uuid": "120d247b-c9cd-4f6e-8ae8-2fe9dc3688e7",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 91,
@@ -4821,18 +4353,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 30,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Bammy",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:02:44.416Z",
       "uuid": "120d247b-c9cd-4f6e-8ae8-2fe9dc3688e7",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 91,
@@ -4843,18 +4370,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 31,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Ciabatta",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T18:04:32.614Z",
       "uuid": "c53ba2d9-8114-46e9-947d-7f09923d67b6",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 82,
@@ -4865,18 +4387,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 32,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Ciabatta",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:04:32.632Z",
       "uuid": "c53ba2d9-8114-46e9-947d-7f09923d67b6",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 82,
@@ -4887,18 +4404,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 33,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Ciabatta",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T18:04:44.580Z",
       "uuid": "3237173b-fe3b-4021-ac27-d322d13c12e8",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 82,
@@ -4909,18 +4421,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 34,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "label": "Ciabatta",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:04:44.603Z",
       "uuid": "3237173b-fe3b-4021-ac27-d322d13c12e8",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 82,
@@ -4931,18 +4438,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 35,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Tracking Wild Yeast",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T18:10:48.549Z",
       "uuid": "d119cf73-b841-46a4-8963-60caa2777c5e",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 62,
@@ -4953,18 +4455,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 36,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Tracking Wild Yeast",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:10:48.569Z",
       "uuid": "d119cf73-b841-46a4-8963-60caa2777c5e",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 62,
@@ -4975,18 +4472,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 37,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Desserts with Benefits",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T18:14:21.033Z",
       "uuid": "86a5fcb1-056b-4a54-b3bb-ec28e2df9c3b",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 77,
@@ -4997,18 +4489,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 38,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Desserts with Benefits",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:14:21.059Z",
       "uuid": "86a5fcb1-056b-4a54-b3bb-ec28e2df9c3b",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 77,
@@ -5019,18 +4506,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 39,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Desserts with Benefits",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T18:16:15.004Z",
       "uuid": "79c30474-1646-495b-bf7c-e87616e8a787",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 77,
@@ -5041,18 +4523,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 40,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Desserts with Benefits",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:16:15.029Z",
       "uuid": "79c30474-1646-495b-bf7c-e87616e8a787",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 77,
@@ -5063,18 +4540,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 41,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "The Greatest Thing Since Sliced Bread",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T18:17:15.374Z",
       "uuid": "23765a4f-9bfe-432a-beab-f601a9af5e43",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 74,
@@ -5085,18 +4557,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 42,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "The Greatest Thing Since Sliced Bread",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:17:15.408Z",
       "uuid": "23765a4f-9bfe-432a-beab-f601a9af5e43",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 74,
@@ -5107,18 +4574,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 43,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "The Joy of (Baking) Soda",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T18:18:21.999Z",
       "uuid": "3635829d-b788-4ad3-b3f8-71da14b552d4",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 73,
@@ -5129,18 +4591,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 44,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "The Joy of (Baking) Soda",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:18:22.029Z",
       "uuid": "3635829d-b788-4ad3-b3f8-71da14b552d4",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 73,
@@ -5151,18 +4608,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 45,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "The Great Icelandic Baking Show",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T18:19:23.351Z",
       "uuid": "4e1bad28-63a7-4144-b8b2-2406114d0d45",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 72,
@@ -5173,18 +4625,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 46,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "The Great Icelandic Baking Show",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T18:19:27.907Z",
       "uuid": "eb41f6e5-cc02-4b93-8d47-c990f31b3a9a",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 72,
@@ -5195,18 +4642,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 47,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "The Great Icelandic Baking Show",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:19:27.930Z",
       "uuid": "eb41f6e5-cc02-4b93-8d47-c990f31b3a9a",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 72,
@@ -5217,18 +4659,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 48,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Bread and Circuses",
       "action": "wagtail.edit",
       "data": {},
       "timestamp": "2022-09-19T18:20:00.113Z",
       "uuid": "f7640b00-8efc-49c4-b5e1-848724940762",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 68,
@@ -5239,18 +4676,13 @@
     "model": "wagtailcore.pagelogentry",
     "pk": 49,
     "fields": {
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "label": "Bread and Circuses",
       "action": "wagtail.publish",
       "data": {},
       "timestamp": "2022-09-19T18:20:00.142Z",
       "uuid": "f7640b00-8efc-49c4-b5e1-848724940762",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": true,
       "deleted": false,
       "page": 68,
@@ -5261,9 +4693,7 @@
     "model": "wagtailcore.grouppagepermission",
     "pk": 1,
     "fields": {
-      "group": [
-        "Moderators"
-      ],
+      "group": ["Moderators"],
       "page": 1,
       "permission_type": "add"
     }
@@ -5272,9 +4702,7 @@
     "model": "wagtailcore.grouppagepermission",
     "pk": 2,
     "fields": {
-      "group": [
-        "Moderators"
-      ],
+      "group": ["Moderators"],
       "page": 1,
       "permission_type": "edit"
     }
@@ -5283,9 +4711,7 @@
     "model": "wagtailcore.grouppagepermission",
     "pk": 3,
     "fields": {
-      "group": [
-        "Moderators"
-      ],
+      "group": ["Moderators"],
       "page": 1,
       "permission_type": "publish"
     }
@@ -5294,9 +4720,7 @@
     "model": "wagtailcore.grouppagepermission",
     "pk": 4,
     "fields": {
-      "group": [
-        "Editors"
-      ],
+      "group": ["Editors"],
       "page": 1,
       "permission_type": "add"
     }
@@ -5305,9 +4729,7 @@
     "model": "wagtailcore.grouppagepermission",
     "pk": 5,
     "fields": {
-      "group": [
-        "Editors"
-      ],
+      "group": ["Editors"],
       "page": 1,
       "permission_type": "edit"
     }
@@ -5316,9 +4738,7 @@
     "model": "wagtailcore.grouppagepermission",
     "pk": 6,
     "fields": {
-      "group": [
-        "Moderators"
-      ],
+      "group": ["Moderators"],
       "page": 1,
       "permission_type": "lock"
     }
@@ -5330,9 +4750,7 @@
       "page": 80,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T17:40:58.023Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 80,
         "path": "0001000200010001",
@@ -5380,9 +4798,7 @@
       "page": 80,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T17:46:18.701Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 80,
         "path": "0001000200010001",
@@ -5430,9 +4846,7 @@
       "page": 81,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T17:48:00.722Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 81,
         "path": "0001000200010002",
@@ -5480,9 +4894,7 @@
       "page": 82,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T17:51:53.926Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 82,
         "path": "0001000200010003",
@@ -5518,12 +4930,7 @@
         "origin": 11,
         "bread_type": 1,
         "wagtail_admin_comments": [],
-        "ingredients": [
-          1,
-          3,
-          4,
-          5
-        ]
+        "ingredients": [1, 3, 4, 5]
       },
       "approved_go_live_at": null
     }
@@ -5535,9 +4942,7 @@
       "page": 83,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T17:53:45.261Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 83,
         "path": "0001000200010004",
@@ -5585,9 +4990,7 @@
       "page": 84,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T17:54:54.243Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 84,
         "path": "0001000200010005",
@@ -5635,9 +5038,7 @@
       "page": 85,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T17:56:00.677Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 85,
         "path": "0001000200010006",
@@ -5685,9 +5086,7 @@
       "page": 86,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T17:56:57.938Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 86,
         "path": "0001000200010007",
@@ -5735,9 +5134,7 @@
       "page": 87,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T17:58:23.224Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 87,
         "path": "0001000200010008",
@@ -5785,9 +5182,7 @@
       "page": 88,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T17:59:44.905Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 88,
         "path": "0001000200010009",
@@ -5835,9 +5230,7 @@
       "page": 89,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:00:40.694Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 89,
         "path": "000100020001000A",
@@ -5885,9 +5278,7 @@
       "page": 90,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:01:40.147Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 90,
         "path": "000100020001000B",
@@ -5935,9 +5326,7 @@
       "page": 91,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:02:44.391Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 91,
         "path": "000100020001000C",
@@ -5985,9 +5374,7 @@
       "page": 82,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:04:32.609Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 82,
         "path": "0001000200010003",
@@ -6023,12 +5410,7 @@
         "origin": 11,
         "bread_type": 1,
         "wagtail_admin_comments": [],
-        "ingredients": [
-          1,
-          3,
-          4,
-          5
-        ]
+        "ingredients": [1, 3, 4, 5]
       },
       "approved_go_live_at": null
     }
@@ -6040,9 +5422,7 @@
       "page": 82,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:04:44.572Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 82,
         "path": "0001000200010003",
@@ -6078,12 +5458,7 @@
         "origin": 11,
         "bread_type": 1,
         "wagtail_admin_comments": [],
-        "ingredients": [
-          1,
-          3,
-          4,
-          5
-        ]
+        "ingredients": [1, 3, 4, 5]
       },
       "approved_go_live_at": null
     }
@@ -6095,9 +5470,7 @@
       "page": 62,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:10:48.539Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 62,
         "path": "0001000200040001",
@@ -6166,9 +5539,7 @@
       "page": 77,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:14:21.026Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 77,
         "path": "0001000200040006",
@@ -6232,9 +5603,7 @@
       "page": 77,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:16:14.997Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 77,
         "path": "0001000200040006",
@@ -6298,9 +5667,7 @@
       "page": 74,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:17:15.367Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 74,
         "path": "0001000200040005",
@@ -6401,9 +5768,7 @@
       "page": 73,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:18:21.992Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 73,
         "path": "0001000200040004",
@@ -6485,9 +5850,7 @@
       "page": 72,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:19:23.344Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 72,
         "path": "0001000200040003",
@@ -6556,9 +5919,7 @@
       "page": 72,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:19:27.900Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 72,
         "path": "0001000200040003",
@@ -6627,9 +5988,7 @@
       "page": 68,
       "submitted_for_moderation": false,
       "created_at": "2022-09-19T18:20:00.107Z",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content": {
         "pk": 68,
         "path": "0001000200040002",
@@ -6703,10 +6062,7 @@
       "title": "Root",
       "draft_title": "Root",
       "slug": "root",
-      "content_type": [
-        "wagtailcore",
-        "page"
-      ],
+      "content_type": ["wagtailcore", "page"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/",
@@ -6739,10 +6095,7 @@
       "title": "Breads",
       "draft_title": "Breads",
       "slug": "breads",
-      "content_type": [
-        "breads",
-        "breadsindexpage"
-      ],
+      "content_type": ["breads", "breadsindexpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/",
@@ -6775,10 +6128,7 @@
       "title": "Welcome to the Wagtail Bakery!",
       "draft_title": "Welcome to the Wagtail Bakery!",
       "slug": "home",
-      "content_type": [
-        "base",
-        "homepage"
-      ],
+      "content_type": ["base", "homepage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/",
@@ -6811,10 +6161,7 @@
       "title": "Blog",
       "draft_title": "Blog",
       "slug": "blog",
-      "content_type": [
-        "blog",
-        "blogindexpage"
-      ],
+      "content_type": ["blog", "blogindexpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/blog/",
@@ -6847,10 +6194,7 @@
       "title": "Tracking Wild Yeast",
       "draft_title": "Tracking Wild Yeast",
       "slug": "wild-yeast",
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/blog/wild-yeast/",
@@ -6883,10 +6227,7 @@
       "title": "Locations",
       "draft_title": "Locations",
       "slug": "locations",
-      "content_type": [
-        "locations",
-        "locationsindexpage"
-      ],
+      "content_type": ["locations", "locationsindexpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/locations/",
@@ -6919,10 +6260,7 @@
       "title": "Hof",
       "draft_title": "Hof",
       "slug": "new-york",
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/locations/new-york/",
@@ -6955,10 +6293,7 @@
       "title": "Reykjavik",
       "draft_title": "Reykjavik",
       "slug": "reykjavik",
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/locations/reykjavik/",
@@ -6991,10 +6326,7 @@
       "title": "Vik",
       "draft_title": "Vik",
       "slug": "london",
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/locations/london/",
@@ -7027,10 +6359,7 @@
       "title": "Selfoss",
       "draft_title": "Selfoss",
       "slug": "wellington",
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/locations/wellington/",
@@ -7063,10 +6392,7 @@
       "title": "Bread and Circuses",
       "draft_title": "Bread and Circuses",
       "slug": "bread-circuses",
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/blog/bread-circuses/",
@@ -7099,10 +6425,7 @@
       "title": "Contact Us",
       "draft_title": "Contact Us",
       "slug": "contact-us",
-      "content_type": [
-        "base",
-        "formpage"
-      ],
+      "content_type": ["base", "formpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/contact-us/",
@@ -7135,16 +6458,11 @@
       "title": "Gallery",
       "draft_title": "Gallery",
       "slug": "gallery",
-      "content_type": [
-        "base",
-        "gallerypage"
-      ],
+      "content_type": ["base", "gallerypage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/gallery/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": true,
       "search_description": "",
@@ -7173,16 +6491,11 @@
       "title": "The Great Icelandic Baking Show",
       "draft_title": "The Great Icelandic Baking Show",
       "slug": "icelandic-baking",
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/blog/icelandic-baking/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7211,16 +6524,11 @@
       "title": "The Joy of (Baking) Soda",
       "draft_title": "The Joy of (Baking) Soda",
       "slug": "joy-baking-soda",
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/blog/joy-baking-soda/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7249,16 +6557,11 @@
       "title": "The Greatest Thing Since Sliced Bread",
       "draft_title": "The Greatest Thing Since Sliced Bread",
       "slug": "sliced-bread",
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/blog/sliced-bread/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7287,16 +6590,11 @@
       "title": "About",
       "draft_title": "About",
       "slug": "about",
-      "content_type": [
-        "base",
-        "standardpage"
-      ],
+      "content_type": ["base", "standardpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/about/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": true,
       "search_description": "",
@@ -7325,16 +6623,11 @@
       "title": "Desserts with Benefits",
       "draft_title": "Desserts with Benefits",
       "slug": "desserts-benefits",
-      "content_type": [
-        "blog",
-        "blogpage"
-      ],
+      "content_type": ["blog", "blogpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/blog/desserts-benefits/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7363,16 +6656,11 @@
       "title": "Höfn",
       "draft_title": "Höfn",
       "slug": "hofn",
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/locations/hofn/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7401,16 +6689,11 @@
       "title": "Akranes",
       "draft_title": "Akranes",
       "slug": "akranes",
-      "content_type": [
-        "locations",
-        "locationpage"
-      ],
+      "content_type": ["locations", "locationpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/locations/akranes/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7439,16 +6722,11 @@
       "title": "Anadama",
       "draft_title": "Anadama",
       "slug": "anadama",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/anadama/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7477,16 +6755,11 @@
       "title": "Baguettes",
       "draft_title": "Baguettes",
       "slug": "baguettes",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/baguettes/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7515,16 +6788,11 @@
       "title": "Ciabatta",
       "draft_title": "Ciabatta",
       "slug": "ciabatta",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/ciabatta/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7553,16 +6821,11 @@
       "title": "Appam",
       "draft_title": "Appam",
       "slug": "appam",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/appam/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7591,16 +6854,11 @@
       "title": "Anpan",
       "draft_title": "Anpan",
       "slug": "anpan",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/anpan/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7629,16 +6887,11 @@
       "title": "Bazin",
       "draft_title": "Bazin",
       "slug": "bazin",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/bazin/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7667,16 +6920,11 @@
       "title": "Bhakri",
       "draft_title": "Bhakri",
       "slug": "bhakri",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/bhakri/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7705,16 +6953,11 @@
       "title": "Black bread",
       "draft_title": "Black bread",
       "slug": "black-bread",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/black-bread/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7743,16 +6986,11 @@
       "title": "Arepa",
       "draft_title": "Arepa",
       "slug": "arepa",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/arepa/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7781,16 +7019,11 @@
       "title": "Bolani",
       "draft_title": "Bolani",
       "slug": "bolani",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/bolani/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7819,16 +7052,11 @@
       "title": "Bagel",
       "draft_title": "Bagel",
       "slug": "bagel",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/bagel/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7857,16 +7085,11 @@
       "title": "Bammy",
       "draft_title": "Bammy",
       "slug": "bammy",
-      "content_type": [
-        "breads",
-        "breadpage"
-      ],
+      "content_type": ["breads", "breadpage"],
       "live": true,
       "has_unpublished_changes": false,
       "url_path": "/home/breads/bammy/",
-      "owner": [
-        "admin"
-      ],
+      "owner": ["admin"],
       "seo_title": "",
       "show_in_menus": false,
       "search_description": "",
@@ -7887,18 +7110,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 1,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadingredient"
-      ],
+      "content_type": ["breads", "breadingredient"],
       "label": "Salty",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:15:02.348Z",
       "uuid": "9db25827-1c78-4bb7-add7-3c12d286f4b5",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "1"
@@ -7908,18 +7126,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 2,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadingredient"
-      ],
+      "content_type": ["breads", "breadingredient"],
       "label": "Cinnamon",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:15:09.137Z",
       "uuid": "5dc3ff4b-73c9-404f-9b92-4f847015bd17",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "2"
@@ -7929,18 +7142,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 3,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadingredient"
-      ],
+      "content_type": ["breads", "breadingredient"],
       "label": "Water",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:15:14.878Z",
       "uuid": "e54fc2d8-4f3c-435d-94e5-36f9517513dc",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "3"
@@ -7950,18 +7158,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 4,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadingredient"
-      ],
+      "content_type": ["breads", "breadingredient"],
       "label": "Flour",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:15:21.140Z",
       "uuid": "5b9a441d-ff6e-4d43-acd5-10e96ae33310",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "4"
@@ -7971,18 +7174,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 5,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadingredient"
-      ],
+      "content_type": ["breads", "breadingredient"],
       "label": "Yeast",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:15:27.806Z",
       "uuid": "94e2f32e-5e8f-4846-84dd-567f397edf23",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "5"
@@ -7992,18 +7190,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 6,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "White bread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:15:42.120Z",
       "uuid": "966ba9b9-caec-424c-ada9-ea02f7ec4ded",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "1"
@@ -8013,18 +7206,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 7,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Pancake",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:15:47.871Z",
       "uuid": "46e24a5a-30cf-4852-a21b-c8d5b77ed43f",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "2"
@@ -8034,18 +7222,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 8,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Bun",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:15:53.217Z",
       "uuid": "bd157cac-2772-4a8b-9e42-df0a108a4d34",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "3"
@@ -8055,18 +7238,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 9,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Rye bread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:16:08.765Z",
       "uuid": "09e71504-27aa-4855-8ba4-584e7fcbb9e3",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "4"
@@ -8076,18 +7254,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 10,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Yeast bread or unleavened",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:16:15.574Z",
       "uuid": "a23ba55b-5ec6-4ecf-8a32-c8bdf64188e6",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "5"
@@ -8097,18 +7270,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 11,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Unleavened Flatbread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:16:27.861Z",
       "uuid": "c54e3336-ee10-4f28-8b81-c4cdff0bafa2",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "6"
@@ -8118,18 +7286,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 12,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Waffle",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:16:37.609Z",
       "uuid": "538b1b79-193a-4ec3-ab09-5d9d40626809",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "7"
@@ -8139,18 +7302,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 13,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Quick or yeast bread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:16:44.416Z",
       "uuid": "08056ac8-8252-4b12-bc27-1738d3150bb8",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "8"
@@ -8160,18 +7318,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 14,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Unleavened bread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:16:52.353Z",
       "uuid": "38d3aef7-d9bc-46f3-9973-6e0cefb1e5bb",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "9"
@@ -8181,18 +7334,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 15,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Fruit bread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:17:00.193Z",
       "uuid": "b47f6540-c08e-4bef-b0c2-946f2a45be0b",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "10"
@@ -8202,18 +7350,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 16,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Sweet bread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:17:10.299Z",
       "uuid": "38738fcd-f06a-4a62-9816-12a745855227",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "11"
@@ -8223,18 +7366,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 17,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Various thick, round breads",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:17:17.133Z",
       "uuid": "df6121e6-aae9-40da-99cf-40a584ad21a1",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "12"
@@ -8244,18 +7382,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 18,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Cornbread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:17:24.285Z",
       "uuid": "8b0229c1-c42b-406e-aa0c-9adce9720623",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "13"
@@ -8265,18 +7398,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 19,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Varies widely",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:17:31.986Z",
       "uuid": "f6f8850e-097b-4690-a02b-154ef700d68c",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "14"
@@ -8286,18 +7414,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 20,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Sweet bun",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:17:43.506Z",
       "uuid": "30dd40c8-6b74-4695-9774-0d2cee61b8d6",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "15"
@@ -8307,18 +7430,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 21,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Yeast bread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:17:51.463Z",
       "uuid": "b9f27fbe-fddd-4f6e-b0f7-d4fbf32b5b0b",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "16"
@@ -8328,18 +7446,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 22,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Buckwheat bread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:17:57.902Z",
       "uuid": "0a6bbe81-dc46-4005-9007-7ac8d33cd492",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "17"
@@ -8349,18 +7462,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 23,
     "fields": {
-      "content_type": [
-        "breads",
-        "breadtype"
-      ],
+      "content_type": ["breads", "breadtype"],
       "label": "Flatbread",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:18:05.903Z",
       "uuid": "d09a0bd3-b267-40ef-af95-7887fb68b80e",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "18"
@@ -8370,18 +7478,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 24,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Latvia",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:18:26.740Z",
       "uuid": "629edc4c-85d6-4f15-b287-40a224570ae8",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "1"
@@ -8391,18 +7494,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 25,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Portugal (Madeira)",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:18:34.260Z",
       "uuid": "5327e91e-585f-4a55-b8aa-02ed31f01cc0",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "2"
@@ -8412,18 +7510,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 26,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Afghanistan",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:18:40.704Z",
       "uuid": "19513785-db97-444e-b801-1c7b403efaa7",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "3"
@@ -8433,18 +7526,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 27,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "China",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:18:49.354Z",
       "uuid": "3bbb7d95-939c-436b-a4d4-2e3ae47d748b",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "4"
@@ -8454,18 +7542,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 28,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Poland",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:18:58.621Z",
       "uuid": "505fda7c-19f3-4604-a3e5-b8c3f23d8f11",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "5"
@@ -8475,18 +7558,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 29,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "China",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:20:53.646Z",
       "uuid": "3fdb3575-f7ec-492d-ba41-748219b175fe",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "6"
@@ -8496,18 +7574,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 30,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "India Pakistan",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:21:02.493Z",
       "uuid": "610b522e-359e-46a2-9d22-38996920e233",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "7"
@@ -8517,18 +7590,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 31,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "North America",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:21:15.518Z",
       "uuid": "fb4a420b-22dc-4599-bd12-a496fe6289e1",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "8"
@@ -8538,18 +7606,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 32,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Turkey",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:21:23.645Z",
       "uuid": "243c7352-acd2-4c04-a15c-a74b60c47ac9",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "9"
@@ -8559,18 +7622,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 33,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Libya",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:21:35.163Z",
       "uuid": "0836a768-0ce8-484c-9d87-a3146d8cabba",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "10"
@@ -8580,18 +7638,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 34,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Italy",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:21:42.563Z",
       "uuid": "c3e767cb-0e54-4ebf-97ff-c43674b96976",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "11"
@@ -8601,18 +7654,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 35,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Ireland",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:21:51.354Z",
       "uuid": "a909a058-cf5b-4056-9734-70c66d6f2603",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "12"
@@ -8622,18 +7670,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 36,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Iran Afghanistan (northwestern)",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:21:59.354Z",
       "uuid": "241cf9a6-df99-4bbb-9741-5dc5619feb7c",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "13"
@@ -8643,18 +7686,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 37,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "United Kingdom (Wales)",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:22:07.279Z",
       "uuid": "477e95a4-0a4c-43cb-a6dc-f3f70fdd3ea0",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "14"
@@ -8664,18 +7702,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 38,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "United Kingdom (Scotland)",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:22:14.049Z",
       "uuid": "5b97c95e-8a94-4c54-8be4-69eadbff008c",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "15"
@@ -8685,18 +7718,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 39,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Scandinavia",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:22:20.586Z",
       "uuid": "1a12eea0-0f6e-43af-bdf5-8ac22a6eb4d9",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "16"
@@ -8706,18 +7734,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 40,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Jamaica",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:22:31.157Z",
       "uuid": "8a8a29dd-a3f9-4632-a286-62f46bf75a8f",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "17"
@@ -8727,18 +7750,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 41,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Tibet (Central)",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:22:38.633Z",
       "uuid": "86e49bb0-69ec-46cc-8d10-0d2ab16b1611",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "18"
@@ -8748,18 +7766,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 42,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "France",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:22:44.522Z",
       "uuid": "ea989652-11c0-4b15-a88d-bfb233f4eb4d",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "19"
@@ -8769,18 +7782,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 43,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Polish/Ashkenazi Jewish",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:22:51.473Z",
       "uuid": "9201f5cb-8684-433a-9178-78b6a4e1e8c5",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "20"
@@ -8790,18 +7798,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 44,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "China",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:23:00.008Z",
       "uuid": "cddba650-fd27-44ac-aed0-f5e2b67cba51",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "21"
@@ -8811,18 +7814,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 45,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "South America (Northern)",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:23:09.872Z",
       "uuid": "6e79560d-599d-4b56-9bd4-867142ecb0d2",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "22"
@@ -8832,18 +7830,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 46,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "India (Kerala) Sri Lanka",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:23:15.832Z",
       "uuid": "d6292038-b1e3-41cf-bd95-aa4675f8fc33",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "23"
@@ -8853,18 +7846,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 47,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Japan",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:23:26.526Z",
       "uuid": "100ee47e-79ad-490c-bbf6-1a71693a3791",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "24"
@@ -8874,18 +7862,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 48,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "United States (New England)",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:23:32.609Z",
       "uuid": "acfd4abf-5745-4c89-9488-a956c848be09",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "25"
@@ -8895,18 +7878,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 49,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Slovenia",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:23:39.393Z",
       "uuid": "370beff6-dfe9-4674-a886-18cdc23ac67b",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "26"
@@ -8916,18 +7894,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 50,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "Egypt",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T17:23:44.351Z",
       "uuid": "b4e4cb3a-db01-43fd-bc79-ef15bcf40a3b",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "27"
@@ -8937,18 +7910,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 51,
     "fields": {
-      "content_type": [
-        "breads",
-        "country"
-      ],
+      "content_type": ["breads", "country"],
       "label": "China",
       "action": "wagtail.delete",
       "data": {},
       "timestamp": "2022-09-19T17:24:06.114Z",
       "uuid": "27044289-68f8-4bf1-90d2-d0768423f436",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "6"
@@ -8958,18 +7926,13 @@
     "model": "wagtailcore.modellogentry",
     "pk": 52,
     "fields": {
-      "content_type": [
-        "base",
-        "people"
-      ],
+      "content_type": ["base", "people"],
       "label": "Willieus Wagtail",
       "action": "wagtail.create",
       "data": {},
       "timestamp": "2022-09-19T18:15:47.256Z",
       "uuid": "0c90d453-b5fb-4f54-95c1-4270ff264309",
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "content_changed": false,
       "deleted": false,
       "object_id": "5"
@@ -8985,9 +7948,7 @@
       "width": 300,
       "height": 282,
       "created_at": "2019-02-17T07:43:46.304Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9006,9 +7967,7 @@
       "width": 1080,
       "height": 831,
       "created_at": "2019-02-17T08:10:34.237Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9027,9 +7986,7 @@
       "width": 1080,
       "height": 1151,
       "created_at": "2019-02-17T08:10:34.344Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9048,9 +8005,7 @@
       "width": 1080,
       "height": 1080,
       "created_at": "2019-02-17T08:10:34.580Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9069,9 +8024,7 @@
       "width": 1080,
       "height": 1240,
       "created_at": "2019-02-17T08:10:34.723Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9090,9 +8043,7 @@
       "width": 800,
       "height": 600,
       "created_at": "2019-02-19T08:08:37.723Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9111,9 +8062,7 @@
       "width": 1008,
       "height": 756,
       "created_at": "2019-02-19T08:08:38.028Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9132,9 +8081,7 @@
       "width": 1024,
       "height": 682,
       "created_at": "2019-02-21T07:50:10.793Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9153,9 +8100,7 @@
       "width": 1000,
       "height": 669,
       "created_at": "2019-02-21T07:59:50.671Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9174,9 +8119,7 @@
       "width": 1000,
       "height": 664,
       "created_at": "2019-02-21T08:05:08.529Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9195,9 +8138,7 @@
       "width": 733,
       "height": 481,
       "created_at": "2019-02-21T08:10:30.772Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9216,9 +8157,7 @@
       "width": 1024,
       "height": 677,
       "created_at": "2019-02-21T08:15:16.080Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9237,9 +8176,7 @@
       "width": 1200,
       "height": 800,
       "created_at": "2019-02-23T07:48:33.730Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9258,9 +8195,7 @@
       "width": 1200,
       "height": 541,
       "created_at": "2019-02-23T07:48:34.056Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9279,9 +8214,7 @@
       "width": 1200,
       "height": 900,
       "created_at": "2019-02-23T07:48:34.189Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9300,9 +8233,7 @@
       "width": 1200,
       "height": 1038,
       "created_at": "2019-02-23T07:48:34.296Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9321,9 +8252,7 @@
       "width": 1200,
       "height": 583,
       "created_at": "2019-02-23T07:48:34.417Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9342,9 +8271,7 @@
       "width": 1200,
       "height": 1078,
       "created_at": "2019-02-23T07:48:34.498Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9363,9 +8290,7 @@
       "width": 1200,
       "height": 900,
       "created_at": "2019-02-23T07:48:34.571Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9384,9 +8309,7 @@
       "width": 800,
       "height": 640,
       "created_at": "2019-02-23T07:48:34.650Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9405,9 +8328,7 @@
       "width": 1200,
       "height": 910,
       "created_at": "2019-02-23T07:48:34.735Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9426,9 +8347,7 @@
       "width": 1280,
       "height": 960,
       "created_at": "2019-02-23T07:48:34.809Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9447,9 +8366,7 @@
       "width": 1200,
       "height": 796,
       "created_at": "2019-02-23T07:48:34.909Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9468,9 +8385,7 @@
       "width": 1200,
       "height": 773,
       "created_at": "2019-02-23T08:18:10.895Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9489,9 +8404,7 @@
       "width": 1200,
       "height": 900,
       "created_at": "2019-02-23T08:25:03.822Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9510,9 +8423,7 @@
       "width": 1000,
       "height": 750,
       "created_at": "2019-02-24T08:01:50.590Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9531,9 +8442,7 @@
       "width": 1024,
       "height": 678,
       "created_at": "2019-03-22T06:13:09.773Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9552,9 +8461,7 @@
       "width": 1024,
       "height": 683,
       "created_at": "2019-03-22T06:29:18.751Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9573,9 +8480,7 @@
       "width": 1400,
       "height": 932,
       "created_at": "2019-03-29T17:27:55.769Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9594,9 +8499,7 @@
       "width": 992,
       "height": 971,
       "created_at": "2019-03-29T17:31:36.429Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9615,9 +8518,7 @@
       "width": 1200,
       "height": 948,
       "created_at": "2019-03-29T17:46:14.914Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": 518,
       "focal_point_y": 248,
       "focal_point_width": 1031,
@@ -9636,9 +8537,7 @@
       "width": 1400,
       "height": 981,
       "created_at": "2019-03-29T18:00:33.977Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9657,9 +8556,7 @@
       "width": 1200,
       "height": 800,
       "created_at": "2019-03-29T18:04:27.068Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9678,9 +8575,7 @@
       "width": 1200,
       "height": 800,
       "created_at": "2019-03-29T18:08:27.770Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": 578,
       "focal_point_y": 476,
       "focal_point_width": 1031,
@@ -9699,9 +8594,7 @@
       "width": 611,
       "height": 672,
       "created_at": "2019-03-31T06:36:23.486Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9720,9 +8613,7 @@
       "width": 300,
       "height": 294,
       "created_at": "2019-04-01T07:30:10.713Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9741,9 +8632,7 @@
       "width": 150,
       "height": 162,
       "created_at": "2019-04-01T07:31:21.251Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9762,9 +8651,7 @@
       "width": 1180,
       "height": 800,
       "created_at": "2022-09-19T17:50:23.489Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9783,9 +8670,7 @@
       "width": 1134,
       "height": 1134,
       "created_at": "2022-09-19T18:15:43.043Z",
-      "uploaded_by_user": [
-        "admin"
-      ],
+      "uploaded_by_user": ["admin"],
       "focal_point_x": null,
       "focal_point_y": null,
       "focal_point_width": null,
@@ -9798,9 +8683,7 @@
     "model": "wagtailusers.userprofile",
     "pk": 1,
     "fields": {
-      "user": [
-        "admin"
-      ],
+      "user": ["admin"],
       "submitted_notifications": true,
       "approved_notifications": true,
       "rejected_notifications": true,
@@ -9815,10 +8698,7 @@
     "pk": 1,
     "fields": {
       "old_path": "/en/breads/testing-breads",
-      "site": [
-        "127.0.0.1",
-        8000
-      ],
+      "site": ["127.0.0.1", 8000],
       "is_permanent": true,
       "redirect_page": 80,
       "redirect_page_route_path": "",
@@ -9953,12 +8833,7 @@
       "body": "[{\"type\": \"heading_block\", \"value\": {\"heading_text\": \"Ciabatta, the Italian baguette!\", \"size\": \"h2\"}, \"id\": \"e5aa1dd3-5139-4917-98cb-b1a84ce65b25\"}, {\"type\": \"paragraph_block\", \"value\": \"<p data-block-key=\\\"cc109\\\">Ciabatta bread was first produced in 1982, by Arnaldo Cavallari, who called the bread <i>ciabatta polesana</i> after Polesine, the area he lived in. The recipe was subsequently licensed by Cavallari&#x27;s company, Molini Adriesi, to bakers in 11 countries by 1999. Cavallari and other bakers in Italy were concerned by the popularity of sandwiches made from baguettes imported from France, which were endangering their businesses, and so set about trying to create an Italian alternative with which to make sandwiches. The recipe for ciabatta came about after several weeks of trying variations of traditional bread recipes and consists of a soft, wet dough made with high gluten flour.</p><p data-block-key=\\\"fo7fj\\\">Many regions have their own variations on the original recipe or a bread that closely resembles ciabatta and has become accepted as a variety of ciabatta; the ciabatta from the area encompassing Lake Como has a crisp crust, a somewhat soft, porous texture, and is light to the touch. The ciabatta found in Tuscany, Umbria, and Marche varies from bread that has a firm crust and dense crumb to bread that has a crisper crust and more open texture, and in Rome, it is often seasoned with marjoram.</p><p data-block-key=\\\"42c88\\\">New variations of the recipe continue to be developed. Wholemeal ciabatta is known as <i>ciabatta integrale</i>, and when milk is added to the dough, it becomes <i>ciabatta al latte.</i></p>\", \"id\": \"a1ffd076-e684-4026-97fd-7274b3629574\"}, {\"type\": \"embed_block\", \"value\": \"https://www.youtube.com/watch?v=D9ZvlKQmm6M\", \"id\": \"b3b6183d-f322-47bd-81c7-c8dd03a247b9\"}]",
       "origin": 11,
       "bread_type": 1,
-      "ingredients": [
-        1,
-        3,
-        4,
-        5
-      ]
+      "ingredients": [1, 3, 4, 5]
     }
   },
   {
@@ -10214,5 +9089,4 @@
       "body": "[{\"type\": \"paragraph_block\", \"value\": \"<h2>Welcome to the Wagtail Demo Site!</h2><p>If you've gotten this far, congratulations - you're running an instance of a killer content management system written for and on top of Django, <i>the framework for perfectionists with deadlines.</i></p><p>What does Wagtail get you that Django alone does not?\\u00a0</p><p></p><ul><li>Focus on content creators/managers, rather than developers (but developer-friendly!)</li><li>\\\"Page-centric\\\" content modeling</li><li>Beautiful, modern, intuitive user interface optimized for content people</li><li>Super-powerful hierarchical content management (\\\"content trees\\\")</li><li>User- and group-based permissions system attached to content hierarchies</li><li>Flexible image resizing with a ton of image display helpers</li><li>Innovative \\\"<a href=\\\"https://torchbox.com/blog/rich-text-fields-and-faster-horses/\\\">StreamFields</a>\\\" as an alternative to traditional \\\"anything goes\\\" rich text fields</li><li>Intuitive choosers for embedded Pages, Images, Documents and other content</li><li>Native integration with ElasticSearch to help you build powerful search features</li><li>Template tags to help create image renditions, smart links, and to navigate content trees</li></ul><p>If you're new to Wagtail, there are two primary paths to learning:</p><p></p><ul><li>The source code that powers this demo site</li><li>The official <a href=\\\"https://docs.wagtail.org/en/stable/getting_started/index.html\\\">tutorial</a></li></ul><p></p><p></p>\", \"id\": \"0acf6904-4e67-46e5-9293-8456390eeb87\"}]"
     }
   }
-  ]
-  
+]

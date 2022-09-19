@@ -15,73 +15,271 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('wagtailimages', '0001_initial'),
-        ('wagtailcore', '0001_initial'),
-        ('breads', '0001_initial'),
+        ("wagtailimages", "0001_initial"),
+        ("wagtailcore", "0001_initial"),
+        ("breads", "0001_initial"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Country',
+            name="Country",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('translation_key', models.UUIDField(default=uuid.uuid4, editable=False)),
-                ('title', models.CharField(max_length=100)),
-                ('locale', models.ForeignKey(editable=False, on_delete=django.db.models.deletion.PROTECT, related_name='+', to='wagtailcore.locale')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "translation_key",
+                    models.UUIDField(default=uuid.uuid4, editable=False),
+                ),
+                ("title", models.CharField(max_length=100)),
+                (
+                    "locale",
+                    models.ForeignKey(
+                        editable=False,
+                        on_delete=django.db.models.deletion.PROTECT,
+                        related_name="+",
+                        to="wagtailcore.locale",
+                    ),
+                ),
             ],
             options={
-                'verbose_name_plural': 'Countries of Origin',
-                'unique_together': {('translation_key', 'locale')},
+                "verbose_name_plural": "Countries of Origin",
+                "unique_together": {("translation_key", "locale")},
             },
         ),
         migrations.CreateModel(
-            name='BreadType',
+            name="BreadType",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('translation_key', models.UUIDField(default=uuid.uuid4, editable=False)),
-                ('title', models.CharField(max_length=255)),
-                ('locale', models.ForeignKey(editable=False, on_delete=django.db.models.deletion.PROTECT, related_name='+', to='wagtailcore.locale')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "translation_key",
+                    models.UUIDField(default=uuid.uuid4, editable=False),
+                ),
+                ("title", models.CharField(max_length=255)),
+                (
+                    "locale",
+                    models.ForeignKey(
+                        editable=False,
+                        on_delete=django.db.models.deletion.PROTECT,
+                        related_name="+",
+                        to="wagtailcore.locale",
+                    ),
+                ),
             ],
             options={
-                'verbose_name_plural': 'Bread types',
-                'unique_together': {('translation_key', 'locale')},
+                "verbose_name_plural": "Bread types",
+                "unique_together": {("translation_key", "locale")},
             },
         ),
         migrations.CreateModel(
-            name='BreadsIndexPage',
+            name="BreadsIndexPage",
             fields=[
-                ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.page')),
-                ('introduction', models.TextField(blank=True, help_text='Text to describe the page')),
-                ('image', models.ForeignKey(blank=True, help_text='Landscape mode only; horizontal width between 1000px and 3000px.', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailimages.image')),
+                (
+                    "page_ptr",
+                    models.OneToOneField(
+                        auto_created=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        parent_link=True,
+                        primary_key=True,
+                        serialize=False,
+                        to="wagtailcore.page",
+                    ),
+                ),
+                (
+                    "introduction",
+                    models.TextField(blank=True, help_text="Text to describe the page"),
+                ),
+                (
+                    "image",
+                    models.ForeignKey(
+                        blank=True,
+                        help_text="Landscape mode only; horizontal width between 1000px and 3000px.",
+                        null=True,
+                        on_delete=django.db.models.deletion.SET_NULL,
+                        related_name="+",
+                        to="wagtailimages.image",
+                    ),
+                ),
             ],
             options={
-                'abstract': False,
+                "abstract": False,
             },
-            bases=('wagtailcore.page',),
+            bases=("wagtailcore.page",),
         ),
         migrations.CreateModel(
-            name='BreadPage',
+            name="BreadPage",
             fields=[
-                ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.page')),
-                ('introduction', models.TextField(blank=True, help_text='Text to describe the page')),
-                ('body', wagtail.fields.StreamField([('heading_block', wagtail.blocks.StructBlock([('heading_text', wagtail.blocks.CharBlock(form_classname='title', required=True)), ('size', wagtail.blocks.ChoiceBlock(blank=True, choices=[('', 'Select a header size'), ('h2', 'H2'), ('h3', 'H3'), ('h4', 'H4')], required=False))])), ('paragraph_block', wagtail.blocks.RichTextBlock(icon='fa-paragraph', template='blocks/paragraph_block.html')), ('image_block', wagtail.blocks.StructBlock([('image', wagtail.images.blocks.ImageChooserBlock(required=True)), ('caption', wagtail.blocks.CharBlock(required=False)), ('attribution', wagtail.blocks.CharBlock(required=False))])), ('block_quote', wagtail.blocks.StructBlock([('text', wagtail.blocks.TextBlock()), ('attribute_name', wagtail.blocks.CharBlock(blank=True, label='e.g. Mary Berry', required=False))])), ('embed_block', wagtail.embeds.blocks.EmbedBlock(help_text='Insert an embed URL e.g https://www.youtube.com/embed/SGJFWirQ3ks', icon='fa-s15', template='blocks/embed_block.html'))], blank=True, use_json_field=True, verbose_name='Page body')),
-                ('bread_type', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='breads.breadtype')),
-                ('image', models.ForeignKey(blank=True, help_text='Landscape mode only; horizontal width between 1000px and 3000px.', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailimages.image')),
-                ('ingredients', modelcluster.fields.ParentalManyToManyField(blank=True, to='breads.breadingredient')),
-                ('origin', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='breads.country')),
+                (
+                    "page_ptr",
+                    models.OneToOneField(
+                        auto_created=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        parent_link=True,
+                        primary_key=True,
+                        serialize=False,
+                        to="wagtailcore.page",
+                    ),
+                ),
+                (
+                    "introduction",
+                    models.TextField(blank=True, help_text="Text to describe the page"),
+                ),
+                (
+                    "body",
+                    wagtail.fields.StreamField(
+                        [
+                            (
+                                "heading_block",
+                                wagtail.blocks.StructBlock(
+                                    [
+                                        (
+                                            "heading_text",
+                                            wagtail.blocks.CharBlock(
+                                                form_classname="title", required=True
+                                            ),
+                                        ),
+                                        (
+                                            "size",
+                                            wagtail.blocks.ChoiceBlock(
+                                                blank=True,
+                                                choices=[
+                                                    ("", "Select a header size"),
+                                                    ("h2", "H2"),
+                                                    ("h3", "H3"),
+                                                    ("h4", "H4"),
+                                                ],
+                                                required=False,
+                                            ),
+                                        ),
+                                    ]
+                                ),
+                            ),
+                            (
+                                "paragraph_block",
+                                wagtail.blocks.RichTextBlock(
+                                    icon="fa-paragraph",
+                                    template="blocks/paragraph_block.html",
+                                ),
+                            ),
+                            (
+                                "image_block",
+                                wagtail.blocks.StructBlock(
+                                    [
+                                        (
+                                            "image",
+                                            wagtail.images.blocks.ImageChooserBlock(
+                                                required=True
+                                            ),
+                                        ),
+                                        (
+                                            "caption",
+                                            wagtail.blocks.CharBlock(required=False),
+                                        ),
+                                        (
+                                            "attribution",
+                                            wagtail.blocks.CharBlock(required=False),
+                                        ),
+                                    ]
+                                ),
+                            ),
+                            (
+                                "block_quote",
+                                wagtail.blocks.StructBlock(
+                                    [
+                                        ("text", wagtail.blocks.TextBlock()),
+                                        (
+                                            "attribute_name",
+                                            wagtail.blocks.CharBlock(
+                                                blank=True,
+                                                label="e.g. Mary Berry",
+                                                required=False,
+                                            ),
+                                        ),
+                                    ]
+                                ),
+                            ),
+                            (
+                                "embed_block",
+                                wagtail.embeds.blocks.EmbedBlock(
+                                    help_text="Insert an embed URL e.g https://www.youtube.com/embed/SGJFWirQ3ks",
+                                    icon="fa-s15",
+                                    template="blocks/embed_block.html",
+                                ),
+                            ),
+                        ],
+                        blank=True,
+                        use_json_field=True,
+                        verbose_name="Page body",
+                    ),
+                ),
+                (
+                    "bread_type",
+                    models.ForeignKey(
+                        blank=True,
+                        null=True,
+                        on_delete=django.db.models.deletion.SET_NULL,
+                        related_name="+",
+                        to="breads.breadtype",
+                    ),
+                ),
+                (
+                    "image",
+                    models.ForeignKey(
+                        blank=True,
+                        help_text="Landscape mode only; horizontal width between 1000px and 3000px.",
+                        null=True,
+                        on_delete=django.db.models.deletion.SET_NULL,
+                        related_name="+",
+                        to="wagtailimages.image",
+                    ),
+                ),
+                (
+                    "ingredients",
+                    modelcluster.fields.ParentalManyToManyField(
+                        blank=True, to="breads.breadingredient"
+                    ),
+                ),
+                (
+                    "origin",
+                    models.ForeignKey(
+                        blank=True,
+                        null=True,
+                        on_delete=django.db.models.deletion.SET_NULL,
+                        to="breads.country",
+                    ),
+                ),
             ],
             options={
-                'abstract': False,
+                "abstract": False,
             },
-            bases=('wagtailcore.page',),
+            bases=("wagtailcore.page",),
         ),
         migrations.AddField(
-            model_name='breadingredient',
-            name='locale',
-            field=models.ForeignKey(editable=False, on_delete=django.db.models.deletion.PROTECT, related_name='+', to='wagtailcore.locale'),
+            model_name="breadingredient",
+            name="locale",
+            field=models.ForeignKey(
+                editable=False,
+                on_delete=django.db.models.deletion.PROTECT,
+                related_name="+",
+                to="wagtailcore.locale",
+            ),
         ),
         migrations.AlterUniqueTogether(
-            name='breadingredient',
-            unique_together={('translation_key', 'locale')},
+            name="breadingredient",
+            unique_together={("translation_key", "locale")},
         ),
     ]

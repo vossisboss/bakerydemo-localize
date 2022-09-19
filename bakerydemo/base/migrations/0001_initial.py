@@ -9,37 +9,120 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='FooterText',
+            name="FooterText",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('translation_key', models.UUIDField(default=uuid.uuid4, editable=False)),
-                ('body', wagtail.fields.RichTextField()),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "translation_key",
+                    models.UUIDField(default=uuid.uuid4, editable=False),
+                ),
+                ("body", wagtail.fields.RichTextField()),
             ],
             options={
-                'verbose_name_plural': 'Footer Text',
+                "verbose_name_plural": "Footer Text",
             },
         ),
         migrations.CreateModel(
-            name='FormField',
+            name="FormField",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('translation_key', models.UUIDField(default=uuid.uuid4, editable=False)),
-                ('sort_order', models.IntegerField(blank=True, editable=False, null=True)),
-                ('clean_name', models.CharField(blank=True, default='', help_text='Safe name of the form field, the label converted to ascii_snake_case', max_length=255, verbose_name='name')),
-                ('label', models.CharField(help_text='The label of the form field', max_length=255, verbose_name='label')),
-                ('field_type', models.CharField(choices=[('singleline', 'Single line text'), ('multiline', 'Multi-line text'), ('email', 'Email'), ('number', 'Number'), ('url', 'URL'), ('checkbox', 'Checkbox'), ('checkboxes', 'Checkboxes'), ('dropdown', 'Drop down'), ('multiselect', 'Multiple select'), ('radio', 'Radio buttons'), ('date', 'Date'), ('datetime', 'Date/time'), ('hidden', 'Hidden field')], max_length=16, verbose_name='field type')),
-                ('required', models.BooleanField(default=True, verbose_name='required')),
-                ('choices', models.TextField(blank=True, help_text='Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.', verbose_name='choices')),
-                ('default_value', models.TextField(blank=True, help_text='Default value. Comma or new line separated values supported for checkboxes.', verbose_name='default value')),
-                ('help_text', models.CharField(blank=True, max_length=255, verbose_name='help text')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "translation_key",
+                    models.UUIDField(default=uuid.uuid4, editable=False),
+                ),
+                (
+                    "sort_order",
+                    models.IntegerField(blank=True, editable=False, null=True),
+                ),
+                (
+                    "clean_name",
+                    models.CharField(
+                        blank=True,
+                        default="",
+                        help_text="Safe name of the form field, the label converted to ascii_snake_case",
+                        max_length=255,
+                        verbose_name="name",
+                    ),
+                ),
+                (
+                    "label",
+                    models.CharField(
+                        help_text="The label of the form field",
+                        max_length=255,
+                        verbose_name="label",
+                    ),
+                ),
+                (
+                    "field_type",
+                    models.CharField(
+                        choices=[
+                            ("singleline", "Single line text"),
+                            ("multiline", "Multi-line text"),
+                            ("email", "Email"),
+                            ("number", "Number"),
+                            ("url", "URL"),
+                            ("checkbox", "Checkbox"),
+                            ("checkboxes", "Checkboxes"),
+                            ("dropdown", "Drop down"),
+                            ("multiselect", "Multiple select"),
+                            ("radio", "Radio buttons"),
+                            ("date", "Date"),
+                            ("datetime", "Date/time"),
+                            ("hidden", "Hidden field"),
+                        ],
+                        max_length=16,
+                        verbose_name="field type",
+                    ),
+                ),
+                (
+                    "required",
+                    models.BooleanField(default=True, verbose_name="required"),
+                ),
+                (
+                    "choices",
+                    models.TextField(
+                        blank=True,
+                        help_text="Comma or new line separated list of choices. Only applicable in checkboxes, radio and dropdown.",
+                        verbose_name="choices",
+                    ),
+                ),
+                (
+                    "default_value",
+                    models.TextField(
+                        blank=True,
+                        help_text="Default value. Comma or new line separated values supported for checkboxes.",
+                        verbose_name="default value",
+                    ),
+                ),
+                (
+                    "help_text",
+                    models.CharField(
+                        blank=True, max_length=255, verbose_name="help text"
+                    ),
+                ),
             ],
             options={
-                'abstract': False,
+                "abstract": False,
             },
         ),
     ]

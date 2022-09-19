@@ -7,23 +7,55 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='LocationOperatingHours',
+            name="LocationOperatingHours",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('sort_order', models.IntegerField(blank=True, editable=False, null=True)),
-                ('day', models.CharField(choices=[('MON', 'Monday'), ('TUES', 'Tuesday'), ('WED', 'Wednesday'), ('THUR', 'Thursday'), ('FRI', 'Friday'), ('SAT', 'Saturday'), ('SUN', 'Sunday')], default='MON', max_length=4)),
-                ('opening_time', models.TimeField(blank=True, null=True)),
-                ('closing_time', models.TimeField(blank=True, null=True)),
-                ('closed', models.BooleanField(blank=True, help_text='Tick if location is closed on this day', verbose_name='Closed?')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "sort_order",
+                    models.IntegerField(blank=True, editable=False, null=True),
+                ),
+                (
+                    "day",
+                    models.CharField(
+                        choices=[
+                            ("MON", "Monday"),
+                            ("TUES", "Tuesday"),
+                            ("WED", "Wednesday"),
+                            ("THUR", "Thursday"),
+                            ("FRI", "Friday"),
+                            ("SAT", "Saturday"),
+                            ("SUN", "Sunday"),
+                        ],
+                        default="MON",
+                        max_length=4,
+                    ),
+                ),
+                ("opening_time", models.TimeField(blank=True, null=True)),
+                ("closing_time", models.TimeField(blank=True, null=True)),
+                (
+                    "closed",
+                    models.BooleanField(
+                        blank=True,
+                        help_text="Tick if location is closed on this day",
+                        verbose_name="Closed?",
+                    ),
+                ),
             ],
             options={
-                'ordering': ['sort_order'],
-                'abstract': False,
+                "ordering": ["sort_order"],
+                "abstract": False,
             },
         ),
     ]
