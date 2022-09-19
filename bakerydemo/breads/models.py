@@ -4,7 +4,7 @@ from django.db import models
 from modelcluster.fields import ParentalManyToManyField
 from wagtail.admin.panels import FieldPanel, MultiFieldPanel
 from wagtail.fields import StreamField
-from wagtail.models import Page
+from wagtail.models import Page, TranslatableMixin
 from wagtail.search import index
 from wagtail.snippets.models import register_snippet
 
@@ -12,7 +12,7 @@ from bakerydemo.base.blocks import BaseStreamBlock
 
 
 @register_snippet
-class Country(models.Model):
+class Country(TranslatableMixin, models.Model):
     """
     A Django model to store set of countries of origin.
     It uses the `@register_snippet` decorator to allow it to be accessible
@@ -30,10 +30,14 @@ class Country(models.Model):
 
     class Meta:
         verbose_name_plural = "Countries of Origin"
+        unique_together = [
+            ('translation_key', 'locale'),
+        ]
+
 
 
 @register_snippet
-class BreadIngredient(models.Model):
+class BreadIngredient(TranslatableMixin, models.Model):
     """
     Standard Django model that is displayed as a snippet within the admin due
     to the `@register_snippet` decorator. We use a new piece of functionality
@@ -53,10 +57,14 @@ class BreadIngredient(models.Model):
 
     class Meta:
         verbose_name_plural = "Bread ingredients"
+        unique_together = [
+            ('translation_key', 'locale'),
+        ]
+
 
 
 @register_snippet
-class BreadType(models.Model):
+class BreadType(TranslatableMixin, models.Model):
     """
     A Django model to define the bread type
     It uses the `@register_snippet` decorator to allow it to be accessible
@@ -77,6 +85,10 @@ class BreadType(models.Model):
 
     class Meta:
         verbose_name_plural = "Bread types"
+        unique_together = [
+            ('translation_key', 'locale'),
+        ]
+
 
 
 class BreadPage(Page):

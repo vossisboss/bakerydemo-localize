@@ -9,13 +9,14 @@ from taggit.models import Tag, TaggedItemBase
 from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtail.contrib.routable_page.models import RoutablePageMixin, route
 from wagtail.fields import StreamField
-from wagtail.models import Orderable, Page
+from wagtail.models import Orderable, Page, TranslatableMixin
+
 from wagtail.search import index
 
 from bakerydemo.base.blocks import BaseStreamBlock
 
 
-class BlogPeopleRelationship(Orderable, models.Model):
+class BlogPeopleRelationship(Orderable, TranslatableMixin, models.Model):
     """
     This defines the relationship between the `People` within the `base`
     app and the BlogPage below. This allows People to be added to a BlogPage.
@@ -31,6 +32,12 @@ class BlogPeopleRelationship(Orderable, models.Model):
         "base.People", related_name="person_blog_relationship", on_delete=models.CASCADE
     )
     panels = [FieldPanel("people")]
+
+    class Meta:
+        ordering = ['sort_order']
+        unique_together = [
+            ('translation_key', 'locale'),
+        ]
 
 
 class BlogPageTag(TaggedItemBase):
