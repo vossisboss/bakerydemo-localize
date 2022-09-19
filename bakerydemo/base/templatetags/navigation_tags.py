@@ -1,5 +1,5 @@
 from django import template
-from wagtail.models import Page, Site
+from wagtail.models import Page, Site, Locale
 
 from bakerydemo.base.models import FooterText
 
@@ -12,7 +12,8 @@ def get_site_root(context):
     # This returns a core.Page. The main menu needs to have the site.root_page
     # defined else will return an object attribute error ('str' object has no
     # attribute 'get_children')
-    return Site.find_for_request(context["request"]).root_page
+    return Site.find_for_request(context['request']).root_page.localized
+
 
 
 def has_menu_children(page):

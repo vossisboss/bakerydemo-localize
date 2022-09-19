@@ -1,9 +1,11 @@
-{% load navigation_tags %}
+{% load wagtailcore_tags navigation_tags i18n %}
 
 <div class="header clearfix">
     <div class="container">
         <div class="navigation" data-navigation>
-            <a href="/" class="navigation__logo">The Wagtail Bakery</a>
+            {% get_site_root as site_root %}
+            <a href="{% pageurl site_root %}" class="logo">The Wagtail Bakery</a>
+
 
             <button
                 type="button"
@@ -24,7 +26,7 @@
                     {% get_site_root as site_root %}
                     {% top_menu parent=site_root calling_page=self %}
                 </ul>
-                <form action="/search" method="get" class="navigation__mobile-search" role="search">
+                <form action="{% url 'search' %}" method="get" class="search" role="search">
                     <label for="mobile-search-input" class="u-sr-only">Search the bakery</label>
                     <input class="navigation__search-input" id="mobile-search-input" type="text" placeholder="Search" autocomplete="off" name="q">
                     <div aria-hidden="true" class="navigation__search-icon">
@@ -52,6 +54,26 @@
                     </svg>
                 </div>
             </form>
+
+            {% if page %}
+                {% for translation in page.get_translations.live %}
+                    {% get_language_info for translation.locale.language_code as lang %}
+                    <a href="{{ translation.url }}">{{ lang.name_local }}</a>
+                {% endfor %}
+            {% else %}
+                {% get_current_language as current_language_code %}
+                {% get_available_languages as languages %}
+                {% for language_code, language_name in languages %}
+                    {% if language_code != current_language_code %}
+                        {% get_language_info for language_code as lang %}
+                                {% language language_code %}
+                                    {# HACK: Assuming only the search page needs this #}
+                                    <a href="{% url 'search' %}?{{ request.GET.urlencode }}">{{ lang.name_local }}</a>
+                                {% endlanguage %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+
         </div>
     </div>
 </div>
